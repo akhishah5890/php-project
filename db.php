@@ -11,7 +11,7 @@ else {
 }
 $sql = "CREATE DATABASE shop";
 if($conn->query($sql) == true){
-   echo "database crteated";
+   echo "database crteated sccessfully";
 }
 else {
 
